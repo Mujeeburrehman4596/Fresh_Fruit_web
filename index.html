@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Fruits</title>
+</head>
+<body>
+    <section>
+        <div class="bg"></div>
+        <header>
+            <a href="" class="logo">Welcome to the World of Fresh Fruits</a>
+            <div class="toogle"></div>
+      
+            <ul class="navigation">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>Eat Fresh Everyday</h2>
+                <p>Fruits are nature’s sweetest gifts, filled with essential vitamins, minerals, and antioxidants that contribute to overall health. On our website, we take pride in offering a variety of fresh, delicious fruits that not only satisfy your taste buds but also provide a nutritional boost. Let’s dive into the unique benefits and features of some of our most popular fruits: Watermelon, Apple, Mango, Kiwi, and Pineapple (Ananas).</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="imageBox">
+                <img src="img/apple.png" class="fruits" alt="" >
+            </div>
+        </div>
+        <ul class="thumb">
+            <li data-text="Apple"class="active"><img src="img/apple.png" onclick="imgSlider('img/apple.png'); changeBgcolor('#fc4155')" alt=""></li>
+            <li data-text="Mango"><img src="img/mango.png" onclick="imgSlider('img/mango.png'); changeBgcolor('#ffcc02')" alt=""></li>
+            <li data-text="water melon"><img src="img/watermelon.png" onclick="imgSlider('img/watermelon.png'); changeBgcolor('#92ba3c')" alt=""></li>
+            <li data-text="dragon Fruits"><img src="img/dragonFruits.png"onclick="imgSlider('img/dragonFruits.png');changeBgcolor('#fb6cb2')" alt=""></li>
+            <li data-text="Pine Apple"><img src="img/pineApple.png" onclick="imgSlider('img/pineApple.png'); changeBgcolor('#ffb42b')" alt=""></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="img/instagram.png" alt=""></a></li>
+            <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
